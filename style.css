@@ -33,7 +33,7 @@ body {
 
 .row {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   
 }
 
@@ -47,13 +47,31 @@ button {
   background-color: rgb(160, 192, 211);
   color: #1e1168;
   margin: 10px;
+  /*box-sizing: content-box;*/
 }
 
 button:hover {
   cursor: pointer;
+  transform: scale(0.95);
+  
 }
 
+button:active {
+  color: #07c426;
+ 
+}
 .operator {
   background-color: #bd3624;
   color: #000;
+}
+
+
+
+.equally {
+  border-radius: 25%;
+  margin-left: 85px;
+}
+.split{
+  border-radius: 25%;
+  margin-left: 85px;
 }
