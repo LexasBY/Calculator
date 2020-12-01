@@ -23,7 +23,7 @@ body {
   border: none;
   box-sizing: border-box;
   padding: 10px;
-  font-size: 2rem;
+  font-size: 36px;
   background-color: #a5b9ab;
   color: #000;
   text-align: right;
@@ -53,24 +53,16 @@ button {
 button:hover {
   cursor: pointer;
   transform: scale(0.95);
-  
 }
 
 button:active {
   color: #07c426;
- 
 }
 .operator {
   background-color: #bd3624;
   color: #000;
 }
 
-
-
-.equally {
-  border-radius: 25%;
-  margin-left: 85px;
-}
 .split{
   border-radius: 25%;
   margin-left: 85px;

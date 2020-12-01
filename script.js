@@ -42,10 +42,8 @@ function numberPress(number){
       display.value = number;
     } else {
       display.value += number;
-      
     }
   }
-
 }
 
 function operationPress(op) {
